@@ -1,0 +1,85 @@
+body{
+    background-color: orangered;
+}
+.container1 h1{
+    display: grid;
+    justify-content: center;
+    text-align: center;
+    width: 700px;
+    margin: auto;
+    border:2px solid black;
+    background-color: yellow;
+    -webkit-text-fill-color:gray;
+}
+.container1 img{
+    width: 100%;
+    height: 150px;
+}
+.container2{
+    display: grid;
+    grid-template-columns: 80% 80% 80%;
+    float: center;
+    width: 30%;
+    padding: 1px;
+    margin-left: 180px;
+    text-align: right;
+}
+.img::after{
+    content: "";
+    display: table;
+    clear: both;
+}
+.icono img{
+    display: block;
+    width: 60%;
+    height: 150px;
+    border-radius: 5px;
+}
+.container3{
+    border: 2px solid black;
+}
+.p{
+    text-align: justify;
+    font-style: italic;
+    padding-left: 180px;
+}
+.logo{
+    width: 8%;
+    height: 105px;
+    float: left;
+}
+
+.container4{
+    display: flex;
+    column-gap: 10px;
+    background-color: white;
+    padding-left: 5px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-right: 5px;
+}
+.lista1{
+    background-color: pink;
+    width: 25%;
+    text-align: initial;
+}
+.lista2{
+    background-color: aquamarine;
+    width: 25%;
+}
+.lista3{
+    background-color: orange;
+    width:25%
+}
+.container5{
+    border: 2px solid black;
+    margin-left: 20px;
+    margin-right: 20px;
+    text-align: center;
+    text-size-adjust: 16px;
+    font-family:"Calibri", sans-serif;
+}
+.fondo{
+    width: 100%;
+    height: 200px;
+}
